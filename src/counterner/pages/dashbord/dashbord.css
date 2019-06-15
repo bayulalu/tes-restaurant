@@ -1,0 +1,68 @@
+.bg{
+    background-image: url('gambar/bg.jpg') ;
+    /* -webkit-background-size: 100% 100% !important;
+    -moz-background-size: 100% 100% !important;
+    -o-background-size: 100% 100% !important;
+    background-size: 100% 100% !important; */
+    height: 100% !important;
+    width: 100% !important;
+      background-attachment: fixed;
+    background-size: cover;
+}
+#contain{
+  margin-top: 75px;
+}
+.map{
+  margin-top: 100px;
+}
+.res{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.tabel{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 7px;
+}
+.wrap{
+  padding: 25px;
+}
+
+.wrap a{
+  margin-right: 10px;
+  margin-bottom: 17px;
+}
+.tombol-tabel{
+  background-color: transparent;
+  border: 1px #6b7273 solid;
+  color: #6b7273;
+  font-weight: bold;
+}
+
+.tombol-tabel:hover{
+  background-color: #dbd9d97a;
+  border: none;
+  color: black;
+  box-shadow: 1px 1px 4px 0px rgb(83, 82, 82);
+}
+
+.submit{
+  float: right;
+  margin-bottom: 20px;
+}
+
+.cre{
+  margin-bottom: 20px;
+}
+
+.back{
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  float: right;
+}
+.back:hover{
+  color: white;
+  box-shadow: 1px 1px 4px 0px black;
+ 
+}

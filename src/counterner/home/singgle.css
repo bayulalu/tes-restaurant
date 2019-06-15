@@ -1,0 +1,26 @@
+.bg{
+    background-image: url('gambar/bg.jpg') ;
+    /* -webkit-background-size: 100% 100% !important;
+    -moz-background-size: 100% 100% !important;
+    -o-background-size: 100% 100% !important;
+    background-size: 100% 100% !important; */
+    height: 100% !important;
+    width: 100% !important;
+      background-attachment: fixed;
+    background-size: cover;
+}
+#contain{
+  margin-top: 75px;
+}
+.map{
+  margin-top: 100px;
+}
+.res{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.tombol{
+  margin-top: 50px;
+  color: blue !important;
+  
+}
