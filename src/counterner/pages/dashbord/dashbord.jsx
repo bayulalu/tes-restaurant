@@ -3,7 +3,7 @@ import './dashbord.css';
 import 'antd/dist/antd.css';
 import { Table } from 'antd';
 import { Resizable } from 'react-resizable';
-import {BrowserRouter as Router , Route, Link, Redirect} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import ActionType from '../../../redux/reducer/gelobalActionType';
 import {connect} from 'react-redux';
@@ -128,8 +128,9 @@ class Dashbord extends Component{
                     <div className="col-lg-6"></div>
                     <div className="map"></div>
                     <div className="col-lg-12">
-                        <a href="" className="btn btn-info">CATEGORIS</a> &nbsp;
-                        <a href="" className="btn btn-info">RESTAURANT</a> 
+                        <Link to="/dashboard" className="btn btn-info">CATEGORIS</Link> &nbsp;
+                        <Link to="#" className="btn btn-info">RESTAURANT</Link> &nbsp;
+                        <Link to="/artikel" className="btn btn-info">Artikel</Link>  
                     
                     </div>
                     <div className="col-lg-12 tabel">
