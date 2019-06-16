@@ -44,7 +44,6 @@ class Artikel extends Component{
     // }
 
     render(){
-        console.log(this.state.datas);
         
         return(
             <Fragment>
